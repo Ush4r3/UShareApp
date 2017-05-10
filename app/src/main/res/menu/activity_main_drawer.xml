@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_logon"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Registrarse" />
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Viaje" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Reservar" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@android:drawable/btn_star"
+            android:title="Ranking" />
+    </group>
+
+
+
+</menu>
